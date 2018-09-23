@@ -1,0 +1,32 @@
+{
+  "name": "12-middleware",
+  "version": "1.0.0",
+  "description": "Express Middleware Lab 12",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SharonMiller/12-middleware.git"
+  },
+  "author": "Sharon Miller <sharonmillerdev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SharonMiller/12-middleware/issues"
+  },
+  "homepage": "https://github.com/SharonMiller/12-middleware#readme",
+  "dependencies": {
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^9.0.0",
+    "babel-register": "^6.26.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jest": "^23.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "install": "^0.12.1",
+    "npm": "^6.4.1"
+  }
+}
