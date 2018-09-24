@@ -19,8 +19,10 @@ app.use(express.urlencoded({ extended: true}));
 
 import router from './api/api.js';
 import notFound from './middleware/404';
+import errors from './middleware/error';
 
 app.use(router);
-// app.use(notFound);
+app.use(notFound);
+app.use(errors);
 
 module.exports = app;

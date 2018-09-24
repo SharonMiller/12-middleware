@@ -4,6 +4,7 @@
   "description": "Express Middleware Lab 12",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
   "repository": {
@@ -27,6 +28,7 @@
     "jest": "^23.6.0",
     "morgan": "^1.9.1",
     "require-dir": "^1.0.0",
+    "supertest": "^3.3.0",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
